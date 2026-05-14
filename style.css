@@ -67,6 +67,8 @@ main .first-section .first {
 }
 main .first-section .first h3 {
   color: #8ca98c;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 main .first-section .line {
   margin: 1.5rem 0;
@@ -218,7 +220,7 @@ main #second-section .contentbox .boxe h1 {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-weight: 400;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 main #second-section .contentbox .boxe .sec-two-line {
   width: 3px;
@@ -269,6 +271,7 @@ main #second-section .contentbox .boxmidle .btdv {
 main #second-section .contentbox .boxmidle .btdv .icns {
   margin-left: 2px;
   display: flex;
+  gap: 2px;
 }
 main #second-section .contentbox .boxmidle .btdv .icns i {
   color: #71785c;
@@ -300,7 +303,7 @@ main #second-section .contentbox .boxesss .bo3 {
   width: 100px;
   background-position: center;
   background-size: cover;
-  background-image: url("https://luxepetalsgp.ca/cdn/shop/files/CottonStems.jpg?v=1722159048");
+  background-image: url("https://weavehome.co.nz/cdn/shop/files/Harris_collection_hero_Mobile.webp?v=1773191430&width=3200");
 }
 main #second-section .contentbox .boxesss .bo4 {
   border-radius: 5px;
@@ -308,10 +311,10 @@ main #second-section .contentbox .boxesss .bo4 {
   width: 100px;
   background-position: center;
   background-size: cover;
-  background-image: url("https://houseofisabella.co.uk/cdn/shop/files/bodhi-accessories-simply-green-recycled-throw-oatmeal-house-of-isabella-uk-1199076431.jpg?v=1763720196");
+  background-image: url("https://luxepetalsgp.ca/cdn/shop/files/CottonStems.jpg?v=1722159048");
 }
 main #second-section .fotbox {
-  box-shadow: 5px 5px 6px 1px gray;
+  box-shadow: 5px 5px 8px 3px gray;
   border-radius: 30px;
   position: absolute;
   bottom: 30px;
