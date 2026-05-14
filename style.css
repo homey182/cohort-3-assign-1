@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f8f4f0;
+}
+
+header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+}
+header h1 {
+  font-size: 3rem;
+  font-family: serif;
+}
+header h1 span {
+  opacity: 0.5;
+}
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+header nav li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+header nav :hover {
+  border-bottom: 1px solid black;
+}
+header .icons {
+  font-size: 2rem;
+  display: flex;
+  gap: 1.9rem;
+}
+
+main {
+  width: 100%;
+  padding: 2rem 7rem;
+  display: flex;
+}
+main .first-section h1 {
+  font-size: 7rem;
+  font-family: serif;
+  line-height: 0.8;
+  font-weight: 500;
+}
+main .first-section {
+  width: 40%;
+}
+main .first-section .first {
+  display: flex;
+  align-items: center;
+}
+main .first-section .first h3 {
+  color: #8ca98c;
+}
+main .first-section .line {
+  margin: 1.5rem 0;
+  width: 60px;
+  height: 3px;
+  background-color: black;
+}
+main .first-section .text {
+  width: 50%;
+  opacity: 0.5;
+  font-family: serif;
+}
+main .first-section .colors {
+  margin: 1.7rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+main .first-section .colors p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+main .first-section .colors .boxs {
+  display: flex;
+  gap: 1rem;
+}
+main .first-section .colors .boxs .box1 {
+  height: 30px;
+  width: 30px;
+  background-color: #7c816a;
+  border-radius: 50%;
+}
+main .first-section .colors .boxs .box2 {
+  height: 30px;
+  width: 30px;
+  background-color: #e4dcd4;
+  border-radius: 50%;
+}
+main .first-section .colors .boxs .box3 {
+  height: 30px;
+  width: 30px;
+  background-color: #e1a6a5;
+  border-radius: 50%;
+}
+main .first-section .details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .first-section .details .d {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+main .first-section .details .d .secline {
+  opacity: 0.5;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+main .first-section .lastpart {
+  margin: 2rem 0rem;
+}
+main .first-section .lastpart .boxess {
+  display: flex;
+  font-weight: 500;
+}
+main .first-section .lastpart .boxess .b1 {
+  width: 18%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+main .first-section .lastpart .boxess .b1 .circle {
+  height: 35px;
+  width: 35px;
+  background-color: #e4e1d7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .first-section .lastpart .boxess .b1 .circle i {
+  font-size: 1.5rem;
+  color: #8ca98c;
+}
+main .first-section .lastpart .boxess .b2 {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  border-right: 2px solid rgba(0, 0, 0, 0.5);
+  gap: 5px;
+}
+main .first-section .lastpart .boxess .b2 .circle {
+  height: 35px;
+  width: 35px;
+  background-color: #e4e1d7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .first-section .lastpart .boxess .b2 .circle i {
+  font-size: 1.5rem;
+  color: #8ca98c;
+}
+main .first-section .lastpart .boxess .b3 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+main .first-section .lastpart .boxess .b3 .circle {
+  height: 35px;
+  width: 35px;
+  background-color: #e4e1d7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .first-section .lastpart .boxess .b3 .circle i {
+  font-size: 1.5rem;
+  color: #8ca98c;
+}
+main #second-section {
+  position: relative;
+  width: 60%;
+  height: 700px;
+}
+main #second-section .contentbox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main #second-section .contentbox .boxe {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main #second-section .contentbox .boxe h1 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+main #second-section .contentbox .boxe .sec-two-line {
+  width: 3px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+main #second-section .contentbox .boxmidle {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1484186139897-d5fc6b908812?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8");
+  border-radius: 10px;
+  width: 500px;
+  height: 550px;
+  background-color: gold;
+}
+main #second-section .contentbox .boxesss {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main #second-section .contentbox .boxesss .bo1 {
+  border-radius: 5px;
+  height: 105px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1484186139897-d5fc6b908812?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8");
+}
+main #second-section .contentbox .boxesss .bo2 {
+  border-radius: 5px;
+  height: 105px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://houseofisabella.co.uk/cdn/shop/files/bodhi-accessories-simply-green-recycled-throw-oatmeal-house-of-isabella-uk-1199076431.jpg?v=1763720196");
+}
+main #second-section .contentbox .boxesss .bo3 {
+  border-radius: 5px;
+  height: 105px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://luxepetalsgp.ca/cdn/shop/files/CottonStems.jpg?v=1722159048");
+}
+main #second-section .contentbox .boxesss .bo4 {
+  border-radius: 5px;
+  height: 105px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://houseofisabella.co.uk/cdn/shop/files/bodhi-accessories-simply-green-recycled-throw-oatmeal-house-of-isabella-uk-1199076431.jpg?v=1763720196");
+}
+main #second-section .fotbox {
+  box-shadow: 5px 5px 6px 1px gray;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90px;
+  width: 80%;
+}
+main #second-section .fotbox .fbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main #second-section .fotbox .fbox i {
+  font-size: 50px;
+  color: #787c6b;
+}
+main #second-section .fotbox .fbox2 {
+  width: 200px;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+main #second-section .fotbox .fbox2 i {
+  font-size: 50px;
+  color: #787c6b;
+}
+main #second-section .fotbox .fbox3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main #second-section .fotbox .fbox3 i {
+  font-size: 50px;
+  color: #787c6b;
+}/*# sourceMappingURL=style.css.map */
