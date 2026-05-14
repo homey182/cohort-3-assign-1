@@ -22,6 +22,7 @@ header {
 }
 header h1 {
   font-size: 3rem;
+  font-weight: 500;
   font-family: serif;
 }
 header h1 span {
@@ -216,6 +217,8 @@ main #second-section .contentbox .boxe {
 main #second-section .contentbox .boxe h1 {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+  font-weight: 400;
+  opacity: 0.9;
 }
 main #second-section .contentbox .boxe .sec-two-line {
   width: 3px;
@@ -231,6 +234,44 @@ main #second-section .contentbox .boxmidle {
   width: 500px;
   height: 550px;
   background-color: gold;
+  position: relative;
+}
+main #second-section .contentbox .boxmidle .tdv {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 15px;
+  width: 70px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+main #second-section .contentbox .boxmidle .btdv {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 15px;
+  width: 180px;
+  height: 40px;
+  display: flex;
+  gap: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+main #second-section .contentbox .boxmidle .btdv .icns {
+  margin-left: 2px;
+  display: flex;
+}
+main #second-section .contentbox .boxmidle .btdv .icns i {
+  color: #71785c;
 }
 main #second-section .contentbox .boxesss {
   display: flex;
@@ -311,4 +352,22 @@ main #second-section .fotbox .fbox3 {
 main #second-section .fotbox .fbox3 i {
   font-size: 50px;
   color: #787c6b;
+}
+main #second-section .cart {
+  position: absolute;
+  bottom: 25%;
+  right: 25%;
+  background-color: #5f644d;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-weight: 500;
+}
+main #second-section .cart i {
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
